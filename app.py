@@ -61,7 +61,7 @@ if ogr_no_input:
         
         ihlaller = st.multiselect(
             "İhlal Türlerini Seçiniz:",
-            ["Saç-Sakal", "Kıyafet", "Makyaj", "Takı"]
+            ["Saç", "Sakal", "Kıyafet", "Makyaj", "Takı"]
         )
         notlar = st.text_input("Ek Not:")
         
