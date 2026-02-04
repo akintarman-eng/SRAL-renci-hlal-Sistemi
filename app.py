@@ -33,7 +33,7 @@ st.title("🛡️ SRAL Disiplin Takip")
 with st.sidebar:
     st.header("⚙️ Giriş Yapan")
     ogretmen_ad = st.text_input("Öğretmen Ad Soyad")
-    ders_saati = st.selectbox("Ders Saati", list(range(1, 8)))
+    ders_saati = st.selectbox("Ders Saati", list(range(1, 9)))
 
 st.subheader("🔍 Öğrenci Sorgula")
 ogr_no_input = st.text_input("Öğrenci Numarasını Yazın ve Enter'a Basın")
